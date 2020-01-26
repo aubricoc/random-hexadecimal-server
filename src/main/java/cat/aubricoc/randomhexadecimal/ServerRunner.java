@@ -22,6 +22,7 @@ public class ServerRunner {
             LOG.info("Random Hexadecimal Server finished!");
         } catch (Exception e) {
             LOG.error("Failed Random Hexadecimal Server", e);
+            System.exit(1);
         }
     }
 }
