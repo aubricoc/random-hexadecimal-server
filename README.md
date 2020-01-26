@@ -5,7 +5,7 @@ HTTP Server to generate random hexadecimal numbers of a fixed 32 characters leng
 Execute jar as:
 
 ```bash
-java –jar httpserver.jar –port n
+java -jar httpserver.jar -port n
 ```
 
 Where:
